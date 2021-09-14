@@ -1,6 +1,11 @@
-/*
-ref : https://codepen.io/AllThingsSmitty/pen/jommGQ
-*/
+@font-face{
+	font-family: SCDream;
+	src: url('../fonts/SCDream4.otf');
+}
+
+html, body{
+	font-family: SCDream;
+}
 
 img { 
 	display: flex;

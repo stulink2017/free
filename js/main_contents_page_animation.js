@@ -1,7 +1,5 @@
-$(".hidden").hide()
+//$(".hidden").hide()
 
-//console.log('main_1')
-//console.log(localStorage.getItem('username'))
 printName()
 
 var numClick = 0;

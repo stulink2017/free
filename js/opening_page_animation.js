@@ -49,6 +49,6 @@ function checkName(){
 		alert("이름(별명)을 입력해주세요.");
 	}
 	else{
-		window.location.href = "./main_contents_page_1.html"
+		window.location.href = "./free_job_change2.html"
 	}
 }

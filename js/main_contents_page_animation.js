@@ -1,4 +1,4 @@
-//$(".hidden").hide()
+$(".hidden").hide()
 
 printName()
 

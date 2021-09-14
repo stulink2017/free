@@ -2,14 +2,11 @@ window.addEventListener("wheel", function(e){
 	e.preventDefault();
 },{passive : false});
 
-
 var $html = $("html");
- 
 var page = 1;
 var lastPage = 6;
 
 $html.animate({scrollTop:0},10);
-
 
 $(window).on("wheel", function(e){
  

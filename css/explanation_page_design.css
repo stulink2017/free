@@ -33,12 +33,10 @@ html, body{
 }
 
 .comment_box {
-	width: max-content;
-	max-width:75%;
 	margin: 0 auto;
 	line-height: 1.5;
 }
-@media (max-width:600px){
+@media (max-width:800px){
 	.content{
 		font-size:0.8rem;
 	}
@@ -49,11 +47,11 @@ html, body{
 		font-size: 0.6rem;
 	}
 	.interview{
-		max-height:50px;
-		max-width:50px;
+		max-height:150px;
+		max-width:150px;
 	}
 }
-@media (min-width:600px){
+@media (min-width:800px){
 	.content{
 		font-size:1.5rem;
 	}
@@ -63,12 +61,11 @@ html, body{
 	.guide{
 		font-size: 1rem;
 	}
-	.interview{
-		max-height:50px;
-		max-width:50px;
+	.interview_image{
+		max-height:300px;
+		max-width:300px;
 	}
 }
-
 
 p.comment {
 	margin-top:0;
@@ -106,21 +103,23 @@ p.comment {
 }
 
 .attachment { 	
-	display:flex;
     margin: 0 auto;
     padding: 0.5rem 1.5rem;
-	max-width:80%;
+	max-width:90%;
+}
+
+.logo_container {
+	text-align: center;
 }
 
 .small_logo{
-	display: flex;
     margin: 0 auto;
 	max-height:80px;
 	padding : 0px;
 }
 
 .interview{
-	display:flex;
+	float:left;
 	padding: 5px;
 }
 

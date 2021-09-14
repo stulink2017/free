@@ -20,7 +20,6 @@ html, body{
 	position:fixed;
 	bottom:10px;
 	right:10px;
-	font-size:1.2rem;
 	animation: blink-effect 1.5s step-end infinite;
 }
 
@@ -34,16 +33,37 @@ html, body{
 
 .comment_box {
 	width: max-content;
-	max-width:70%;
+	max-width:75%;
 	margin: 0 auto;
-	font-size: 1.75rem;
 	line-height: 1.5;
 }
+@media (max-width:600px){
+	.content{
+		font-size:1rem;
+	}
+	.comment_box{
+		max-width:90%;
+	}
+	.guide{
+		font-size: 0.75rem;
+	}
+}
+@media (min-width:600px){
+	.content{
+		font-size:1.75rem;
+	}
+	.comment_box{
+		max-width: 75%;
+	}
+	.guide{
+		font-size: 1.2rem;
+	}
+}
+
 
 p.comment {
 	margin-top:0;
 	margin-bottom:0;
-	font-size: 1.75rem;
 	line-height: 1.5;
 }
 
@@ -51,7 +71,6 @@ p.comment {
     margin-top:0;
 	margin-bottom:0;
 	text-align:center;
-	font-size: 1.75rem;
 	line-height: 1.5;
 }
 
@@ -77,11 +96,11 @@ p.comment {
     text-align:center;
 }
 
-.attachment { 
-    display: flex;
+.attachment { 	
     margin: 0 auto;
-    max-width:400px;
     padding: 0.5rem 1.5rem;
+	max-width:80%;
+	max-height: 350px;
 }
 
 .small_logo{
@@ -92,5 +111,13 @@ p.comment {
 }
 
 .interview{
-	width:500px;
+	display:block;
+	padding: 0px;
+	width:100%;
+	height:100%;
+}
+
+.stulink_logo{
+	padding: 0px;
+	width:200px;
 }

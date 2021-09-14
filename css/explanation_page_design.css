@@ -48,6 +48,10 @@ html, body{
 	.guide{
 		font-size: 0.6rem;
 	}
+	.interview{
+		max-height:150px;
+		max-width:200px;
+	}
 }
 @media (min-width:600px){
 	.content{
@@ -58,6 +62,10 @@ html, body{
 	}
 	.guide{
 		font-size: 1rem;
+	}
+	.interview{
+		max-height:300px;
+		max-width:400px;
 	}
 }
 
@@ -98,10 +106,10 @@ p.comment {
 }
 
 .attachment { 	
+	display:flex;
     margin: 0 auto;
     padding: 0.5rem 1.5rem;
 	max-width:80%;
-	max-height: 350px;
 }
 
 .small_logo{
@@ -112,10 +120,8 @@ p.comment {
 }
 
 .interview{
-	display:block;
-	padding: 0px;
-	width:100%;
-	height:100%;
+	display:flex;
+	padding: 5px;
 }
 
 .stulink_logo{

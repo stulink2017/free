@@ -74,9 +74,14 @@ p.comment {
 
 .attachment { 
     display: flex;
-    margin: 0 auto 1rem;
+    margin: 0 auto;
     max-width:400px;
     padding: 0.5rem 1.5rem;
+}
+
+.small_logo{
+	max-height:80px;
+	padding : 0px;
 }
 
 .interview{

@@ -49,8 +49,8 @@ html, body{
 		font-size: 0.6rem;
 	}
 	.interview{
-		max-height:150px;
-		max-width:200px;
+		max-height:50px;
+		max-width:50px;
 	}
 }
 @media (min-width:600px){
@@ -64,8 +64,8 @@ html, body{
 		font-size: 1rem;
 	}
 	.interview{
-		max-height:300px;
-		max-width:400px;
+		max-height:50px;
+		max-width:50px;
 	}
 }
 

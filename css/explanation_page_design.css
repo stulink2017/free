@@ -39,13 +39,13 @@ html, body{
 }
 @media (max-width:600px){
 	.content{
-		font-size:1rem;
+		font-size:0.8rem;
 	}
 	.comment_box{
 		max-width:90%;
 	}
 	.guide{
-		font-size: 0.75rem;
+		font-size: 0.6rem;
 	}
 }
 @media (min-width:600px){

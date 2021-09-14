@@ -46,9 +46,9 @@ html, body{
 	.guide{
 		font-size: 0.6rem;
 	}
-	.interview{
-		max-height:150px;
-		max-width:150px;
+	.interview_image{
+		max-height:180px;
+		max-width:200px;
 	}
 }
 @media (min-width:800px){
@@ -63,7 +63,7 @@ html, body{
 	}
 	.interview_image{
 		max-height:300px;
-		max-width:300px;
+		max-width:350px;
 	}
 }
 

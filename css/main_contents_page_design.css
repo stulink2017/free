@@ -21,11 +21,17 @@ a {
 
 @media (max-width:600px){
 	.main_image{
-		width:50%;
+		display: flex;
+		margin: 0 auto 1rem;
+		padding: 0.5rem 1.5rem;
+		width: 80%;
 	}
 }
 @media (min-width:600px){
 	.main_image{
+		display: flex;
+		margin: 0 auto 1rem;
+		padding: 0.5rem 1.5rem;
 		max-width:600px;
 	}
 }

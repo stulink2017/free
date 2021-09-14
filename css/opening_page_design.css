@@ -28,6 +28,37 @@ html, body{
 	object-fit:contain;
 }
 
+@media (max-width:600px){
+	.input_wrapper{
+		font-size:30px;
+	}
+	.input_wrapper .notice{
+		font-size:15px;
+	}
+	input{
+		font-size:30px;
+		width: 300px;
+	}
+	.icon_wrapper{
+		font-size:15px;
+	}
+}
+@media (min-width:600px){
+	.input_wrapper{
+		font-size:50px;
+	}
+	.input_wrapper .notice{
+		font-size:20px;
+	}
+	input{
+		font-size:50px;
+		width: 350px;
+	}
+	.icon_wrapper{
+		font-size:25px;
+	}
+}
+
 .input_wrapper{
 	display:flex;
 	flex-direction: column;
@@ -35,20 +66,13 @@ html, body{
 	align-items:center;
 	justify-items: center;
 	top:25%;
-	font-size: 50px;
-}
-
-.input_wrapper .notice{
-	font-size: 20px;
 }
 
 input {
 	outline: 0;
 	border-width: 0 0 2px;
 	border-color: black;
-	width: 350px;
 	text-align: center;
-	font-size: 50px;
 	margin-top: 20px;
 }
 
@@ -65,7 +89,6 @@ input:focus{
 	top:30%;
 	justify-content: center;
 	align-items:center;
-	font-size: 25px;
 }
 
 @keyframes blink-effect {

@@ -38,9 +38,6 @@ $(document).click(function(e){
 	var half_screen = screen.height/2;
 	var cursorY = e.clientY;
 
-	console.log(cursorY);
-	console.log("------");
-
 	if(cursorY > half_screen){
 		if(page >= lastPage) {
 			page = lastPage;

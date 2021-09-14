@@ -112,7 +112,9 @@ p.comment {
 }
 
 .interview_image{
+	display:inline-block;
 	padding: 5px;
+	width:45%
 }
 
 .stulink_logo{

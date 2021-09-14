@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/opening_page_design.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js" ></script>
+    <script src="js/opening_page_animation.js"></script>
+    <title>Opening</title>
+</head>
+<body>
+    <div class="content">
+        <img class="title_img" src="images/title.png">
+    </div>
+    <div class="content">
+        <div class="input_wrapper">
+            <div class="text">이름(별명)을 입력해주세요.</div>
+            <input id="username" type="text" placeholder="홍 길 동" onchange="getName()">
+            <div class="notice"><br>*이야기 진행에 몰입하도록 돕는 데만 사용됩니다.</div>
+        </div>
+        <div class="icon_wrapper" onclick="checkName()" style="cursor:pointer">
+            <img src="images/touch_icon.svg">
+            <br>(이곳을 터치하면 다음 장면으로 넘어 갑니다!)
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+html{overflow: hidden;}
+ 
+html, body{width: 100%; height: 100%; margin:0;}
+
+.content{
+	width: 100%; height: 100%;
+	background-color: white;
+	position: relative;
+	text-align:center;
+}
+
+.title_img{
+	position:relative;
+	height:100%;
+	width:100%;
+	object-fit:contain;
+}
+
+.input_wrapper{
+	position:relative;
+	text-align: center;
+	width: 100%;
+	top:30%;
+	font-size: 50px;
+}
+
+.input_wrapper .notice{
+	font-size: 20px;
+}
+
+input {
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: black;
+	width: 350px;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+input:focus{
+	border-color: gray;
+}
+
+.icon_wrapper{
+	position:relative;
+	text-align: center;
+	width: 100%;
+	top:50%;
+	font-size: 25px;
+	
+}
+
+@keyframes blink-effect {
+	50%{opacity: 0.5;}
+}
+
+.icon_wrapper{
+	animation: blink-effect 1.5s step-end infinite;
+}
+

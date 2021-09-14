@@ -1,0 +1,42 @@
+.input_wrapper{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 40%;
+	font-size: xx-large;
+}
+
+.input_wrapper .notice{
+	font-size: large;
+}
+
+
+input {
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: black;
+	width: 350px;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 20px;
+}
+
+input:focus{
+	border-color: gray;
+}
+
+.icon_wrapper{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 80%;
+}
+
+@keyframes blink-effect {
+	50%{opacity: 0.5;}
+}
+
+.icon_wrapper{
+	animation: blink-effect 1.5s step-end infinite;
+}
+

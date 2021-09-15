@@ -8,6 +8,8 @@ var lastPage = 6;
 
 $html.animate({scrollTop:0},10);
 
+update_guide_message();
+
 $(window).on("wheel", function(e){
  
 	if($html.is(":animated")) return;
@@ -56,3 +58,21 @@ $(document).click(function(e){
 	$html.animate({scrollTop : posTop});
 
 });
+
+function update_guide_message() { 
+	var guide_msg_slot = document.getElementsByClassName("guide");
+	console.log(guide_msg_slot);
+
+	try { 
+		document.createEvent("TouchEvent"); 
+		//
+		guide_msg_slot.item(0).innerHTML = "&#x25BD;아래, 위를 터치해주세요&#x25BD;";
+		console.log("MOBILE");
+		return true; 
+	} catch (e) { 
+		guide_msg_slot.item(0).innerHTML = "&#x25BD;스크롤을 내리면서 읽어주세요&#x25BD;";
+		console.log("PC")
+		return false; 
+	} 
+};
+
